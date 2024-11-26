@@ -20,9 +20,5 @@ sudo apt install -y slim
 echo "Installing Ubuntu Desktop Environment. This may take some time..."
 sudo apt install -y ubuntu-desktop
 
-# Reboot the machine
-echo "Rebooting the system..."
-sudo reboot
-
 # Note: After rebooting, the following command should be run manually after SSHing back into the instance:
 # sudo service slim start
